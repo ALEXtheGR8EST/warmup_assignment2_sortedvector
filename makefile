@@ -6,7 +6,7 @@ CFLAGS = -c -Wall
 # EXECUTABLE_NAME is the name of the program to run
 # SOURCES should include all the .cpp files to compile
 EXECUTABLE_NAME = 
-SOURCES =
+SOURCES = main.cpp SortedVectorTester.cpp
 
 OBJECTS = $(SOURCES:.cpp=.o)
 
